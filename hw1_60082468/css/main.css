@@ -1,0 +1,377 @@
+/* Reset CSS: from YUI2: Reset CSS */
+html{color:#000;
+	background:#FFF; 
+	padding:20px 0;
+	font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+body,div,dl,dt,dd,ul,ol,h2,h3,h4,h5,h6,pre,code,legend,button,input,form,fieldset,textarea,p,blockquote,th,td{margin:0;padding:0;}
+li,h1{margin:0;padding:0; text-align:center; color:#666;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+
+/* Basic */
+h1 {font-size:14px; line-height:28px; font-weight:bold;}
+h2 {font-size:12px; line-height:24px; font-weight:bold;}
+a:visited, a:link {color:#000;text-decoration:none;}
+a:hover, a:active {color:#C23700;}
+
+/* layout */
+#wrap {width:960px; margin:0 auto; background-color:#FFF}
+
+/*  -- top -- */
+#top { 
+	width:950px; color:#eee; 
+	padding:0px 0px 0px 0;
+	text-align:right;
+}
+#top a {color:#000;text-decoration:none;padding:5px;}
+#top a:hover {background-color: #E8D9FF;}
+
+/*  -- header -- */
+#header {
+	width:100%; height:100px; background-color:#FFF;
+}
+#header_top {height:100px; }
+#header_left{
+	width: 500px; float:left;display:inline; color:#FFF;
+	padding:5px; height:80px;
+}
+#header_right{width:400px;float:right;text-align:right;display:inline; padding:40px 10px 0 0;}
+
+
+/* -- search -- */
+#search {
+	background: #E8D9FF;
+	border: 1px solid #888;
+	width:170px; font-size:14px; line-height:24px; height:12px;
+	padding-left:10px;vertical-align: middle;
+}
+#search_button {
+    width:80px;
+    background-color: #E8D9FF;
+    background-repeat: repeat-x;
+    border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    padding: 4px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    height:23px;
+}
+
+/* -- content -- */
+#content {background:#fff; overflow:auto; padding:0;}
+#main_content { width:640px; float:left; padding:10px; background:#fff;}
+#sub_content { width:300px; float:right; padding:0px; background-color:#fff;height:100%;}
+#bottom_content{ width:940px; overflow:auto; padding-left: 10px; background:#fff;}
+/* -- footer -- */
+#footer {background-color:#fff; color:#000; text-align:center; padding: 20px;}
+
+
+/* -- navigation -- */
+#navbar {width:950px; height:35px;padding-bottom:4px;background-color:#E8D9FF;margin-left:10px;}
+#navbar ul {margin:0;padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#666; background-color:#E8D9FF;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:2px 20px;
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:10px;
+}
+#navbar ul li a.selected {background-color:#E8D9FF;}
+#navbar ul li a:hover {background-color:#A566FF;}
+
+/*---------------------------------*/
+#main_content div.section_3, #main_content div.section_1 {
+	width:630px;
+	margin-bottom:20px;
+	border: 1px solid #d7e9f9;
+	border-radius: 5px;
+	overflow:auto;
+}
+
+#main_content div.section_3 h1, #main_content div.section_1 h1{
+	width:600px;
+	padding: 4px 6px 4px 44px;
+	background: #d7e9f9;
+	border-radius: 5px 5px 0 0;
+}
+
+#bottom_content  h1 { 
+  background: #E8D9FF url("../images/logo_cal.png")no-repeat 4px center ; 
+}
+
+#main_content div.section_3 li { 
+	width: 220px; display:block; float:left; margin:5px; 
+}
+div.section_3 li img { float:left;}
+
+#main_content div.section_1 li { 
+	width: 600px; display:block; float:left; margin:5px; 
+}
+div.section_1 li img { float:left;}
+/*---------------------------------*/   
+#sub_content div.section {
+	width:300px;
+    height:200px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background: #eee;
+	overflow:auto;
+}
+
+#sub_content div.section h1 {
+	width:190px;
+	padding: 4px 6px 4px 44px;
+	background: #7BA191;
+	color:#fff;
+}
+#sub_content #spot_ranking h1 { background: #7BA191 url("../images/logo_camera.png") no-repeat 4px center; }
+#sub_content #qna h1 { background: #7BA191 url("../images/logo_ink.png") no-repeat 4px center; }
+
+#sub_content div.section li {
+	width: 220px;
+	display:block;
+	float:left;
+	margin:5px;
+}
+
+#sub_content div.section li img { float:left;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+#bottom_content {
+	width:950px;
+	margin-bottom:20px;
+	border: 1px;
+	border-radius: 5px;
+	overflow:auto;
+}
+#bottom_content div.section_3 li { 
+	padding:10px 2px 2px 2px; width: 220px; display:block; float:left; margin:6px; 
+}
+
+
+/* 로그인 css */
+
+
+.container:after {
+    clear: both;
+}
+.container:before, .container:after {
+    content: "";
+    display: table;
+}
+.container:before, .container:after {
+    content: "";
+    display: table;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 300px;
+}
+
+.well {
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    min-height: 20px;
+    padding: 19px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+label, input, button, select, textarea {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+input.span3, textarea.span3, .uneditable-input.span3 {
+    width: 210px;
+}
+input[class*="span"], select[class*="span"], textarea[class*="span"], .uneditable-input[class*="span"], .row-fluid input[class*="span"], .row-fluid select[class*="span"], .row-fluid textarea[class*="span"], .row-fluid .uneditable-input[class*="span"] {
+    float: none;
+    margin-left: 0;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #555555;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 9px;
+    padding: 4px;
+}
+select, textarea, input[type="text2"]{
+    color: #555555;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    padding: 4px;
+}
+.span3 {
+    width: 220px;
+}
+label, input, button, select, textarea {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+}
+input, textarea, .uneditable-input {
+    margin-left: 0;
+}
+input, textarea {
+    width: 150px;
+}
+input, button, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+
+button.btn, input.btn[type="submit"] {
+}
+
+.btn {
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.btn {
+    background-color: #F5F5F5;
+    background-repeat: repeat-x;
+    border-color: #E6E6E6 #E6E6E6 #B3B3B3;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.btn:hover {
+    background-color: #E6E6E6;
+    background-position: 0 -15px;
+    color: #333333;
+    text-decoration: none;
+}
+.btn:focus {
+    outline: thin dotted #333333;
+    outline-offset: -2px;
+}
+.btn.active, .btn:active {
+    background-color: #E6E6E6;
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+
+/* 테이블 */
+table {
+ width:98%;
+ border-top:1px solid #dfe0e0;
+ border-bottom:1px solid #dfe0e0;
+ table-layout: fixed;
+ margin: 20px auto;
+ border-collapse:collapse;
+}
+table tr th {
+ padding: 7px 0px 7px 0px;
+ border: none;
+ border: 3px solid #dfe0e0;
+ background: url('/img/bg.gif') repeat-x top;
+ color: #7a7a7a;
+ text-align: center;
+ vertical-align: middle;
+}
+table tr td {
+ padding: 6px 0px 6px 0px;
+ border: none;
+ border: 3px solid #dfe0e0;
+ border-top: none;
+ background-color :#E8D9FF;
+ color: #454545;
+ text-align: center;
+ vertical-align: middle;
+}
